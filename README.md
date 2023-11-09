@@ -40,17 +40,6 @@ Before proceeding, ensure you have the following prerequisites installed:
 
    Use the `heart_disease_query.sql` file to explore and analyze the heart disease data in ClickHouse. This file contains sample queries to get insights into the data.
 
-   sql
-   CREATE DATABASE IF NOT EXISTS heart_disease;
-
-   USE heart_disease;
-
-   -- Load data from ClickHouse
-   SELECT * FROM heart_disease_data;
-
-   -- Analyze data using SQL queries
-   SELECT COUNT(*) FROM heart_disease_data WHERE diagnosis = 'Heart Disease';
-   SELECT age_group, COUNT(*) AS count FROM heart_disease_data GROUP BY age_group;
    
 
 ## Contributing
